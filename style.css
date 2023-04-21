@@ -5,22 +5,89 @@
 }
 
 
-/* LAYOUT */
+/* LAYOUT HEAADER */
 
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
+
+header{
+    width: 100%;
 }
 
 .row {
     display: flex;
     width: 100%;
+    background-color: blueviolet;
+    align-items: center;
+    
 }
 
 .col-20 {
-    width: 20%;
+    height: 60px;
+    width: 15%;
+    background-color: red;
+    
+}
+
+.col-42.left  {
+    height: 60px;
+    width: calc(75% / 2 );
+    background-color: brown;
+}
+
+.col-42.right  {
+    margin-left:10% ;
+    height: 60px;
+    width: calc(75% / 2 );
+    background-color: brown;
+}
+
+.logo-small {
+    margin-top: 15px;
+
+}
+
+
+
+.container  {
+    display: flex;
+    max-width: 100vw;
+    margin: 0 auto;
+    justify-content: center;
+  
+}
+
+
+.row-main {
+    flex-wrap: wrap;
+    display: flex;
+    width: 80%;
+    height: 800px;
+    background-color: bisque;
+   
+
+}
+
+
+.col-80 {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(156, 86, 221);
+    margin-top: 50px;
+
 }
 
 .col-40 {
     width: 40%;
+    height: 550px;
+    background-color: aquamarine;
 }
+
+.col-60 {
+    width: 60%;
+    height: 550px;
+    background-color: red;
+}
+
+
+
+/* LAYOUT MAIN */
+
