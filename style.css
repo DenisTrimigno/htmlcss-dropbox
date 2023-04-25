@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+
+/* UTILITIES */
+
 html{
     font-family: 'Open Sans', sans-serif;
 }
@@ -69,7 +72,7 @@ h3 {
 }
 
 h4 {
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 
 .icons img{
@@ -211,18 +214,18 @@ li a {
 
 }
 
-.col-40 {
-    font-size: 15px;
-    width: 40%;
-    height: 550px;
-    background-color: aquamarine;
-}
-
 .col-60 {
     position: relative;
     width: 60%;
     height: 550px;
     background-color: red;
+}
+
+.col-40 {
+    font-size: 15px;
+    width: 40%;
+    height: 550px;
+    background-color: aquamarine;
 }
 
 
@@ -242,7 +245,7 @@ li a {
 
 .col-title {
     width: 100%;
-    height: 300px;
+  
     background-color: rgb(120, 13, 114);
 }
 
@@ -360,3 +363,34 @@ li a {
     margin-left: 10px;
     padding: 10px;
 }
+
+.button-white {
+    margin: 35px 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+/* LAYOUT COL 33 x 6 */
+
+.col-33 {
+    width: calc(100% / 3 - 10px);
+    margin-right: 10px;
+    background-color: lightcoral;
+    height: 600px;
+    border: 1px solid black;
+   
+}
+
+
+
+.img-col-33,.img-col-33 img{
+    width: 100%;
+}
+
+
+
