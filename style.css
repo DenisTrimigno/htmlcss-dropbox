@@ -53,8 +53,22 @@ button.b-large {
 
 }
 
+button.b-white {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    font-size: 15px;
+    font-weight: 200;
+    cursor: pointer;
+    width: 210px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
 h1 {
     font-size: 55px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -67,7 +81,7 @@ h3 {
     font-size: 25px;
     margin-top: 20px;
     margin-bottom: 10px;
-    padding: 10px 20px;
+    padding: 10px 0px;
     
 }
 
@@ -112,17 +126,15 @@ h4 {
 /* LAYOUT HEADER */
 
 .container.c-title {
-    background-color: aqua;
+    background-color: rgb(162, 202, 255);
 
 }
 
 
 header{
     width: 100%;
-    background-color: white;
+    
 }
-
-
 
 .col-20 {
     height: 60px;
@@ -166,8 +178,6 @@ header{
 .lista-orizzontale li {
     margin-right: 20px;
     padding: 5px;
-    
-
 }
 
 
@@ -192,7 +202,7 @@ li a {
     flex-wrap: wrap;
     display: flex;
     width: 70%;
-    background-color: bisque;
+    
    
 }
 
@@ -201,15 +211,13 @@ li a {
     flex-wrap: wrap;
     display: flex;
     width: 65%;
-    background-color: bisque;
+    
    
 }
 
 
 .col-80 {
-    height: 200px;
     width: 100%;
-    background-color: rgb(156, 86, 221);
     margin-top: 50px;
 
 }
@@ -217,15 +225,12 @@ li a {
 .col-60 {
     position: relative;
     width: 60%;
-    height: 550px;
-    background-color: red;
+
 }
 
 .col-40 {
     font-size: 15px;
     width: 40%;
-    height: 550px;
-    background-color: aquamarine;
 }
 
 
@@ -245,8 +250,6 @@ li a {
 
 .col-title {
     width: 100%;
-  
-    background-color: rgb(120, 13, 114);
 }
 
 /* LAYOUT MAIN SEZ 3 COLONNE */
@@ -319,6 +322,12 @@ li a {
     color: rgb(0, 123, 255);
 }
 
+.col-title h2 {
+    margin-top: 130px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
 
 
 
@@ -328,25 +337,29 @@ li a {
 .col-solo {
     margin-top: 40px;
     width: 100%;
-    height: 100px;
-    background-color: rgb(51, 170, 217);
     text-align: center;
     padding: 10px;
     border: 1px solid gray;
     border-bottom: none;
 }
 
-.col-70 {
+.col-75 {
     width: 75%;
-    height: 300px;
-    background-color: blueviolet;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    margin-bottom: 120px;
 }
 
 .col-25 {
     width: 25%;
-    height: 300px;
-    background-color: rgb(16, 202, 112);
-    
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    margin-bottom: 120px;
+  
 }
 
 .sub-title {
@@ -378,18 +391,204 @@ li a {
 /* LAYOUT COL 33 x 6 */
 
 .col-33 {
-    width: calc(100% / 3 - 10px);
-    margin-right: 10px;
-    background-color: lightcoral;
-    height: 600px;
-    border: 1px solid black;
+    width: calc(100% / 3 - 20px);
+    margin-right: 20px;
+    padding-top: 30px;
+ 
    
 }
 
-
-
 .img-col-33,.img-col-33 img{
     width: 100%;
+}
+
+/* TITLE DROPBOX BUSINESS */
+
+.col-title-2 {
+    margin-top: 120px;
+}
+
+.row-large  {
+    color: rgb(98, 4, 88);
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    background-color: rgb(162, 202, 255);
+    padding-left: 17.5%;
+    padding-right: 17.5%;
+    padding-top: 50px;
+    margin-top: 50px;
+
+}
+.col-75-down {
+    width: 75%;
+    padding-bottom: 20px;
+    margin-bottom: 120px;
+  
+}
+.col-25-down {
+    width: 25%;
+    padding-bottom: 20px;
+    margin-bottom: 120px;
+  
+}
+
+/* DOMANDE FREQUENTI */
+
+.col-100 {
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(161, 93, 4);
+    height: 80px;
+    border-bottom: 1px solid black;
+}
+
+.text-question{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.fas.fa-angle-down {
+    margin-left: 250px;
+}
+
+.row-margin-100 {
+    margin-bottom: 100px;
+    
+}
+
+.col-100.col-100-title {
+    margin-top: 60px;
+    padding-bottom: 120px;
+    
+}
+
+/* QUADRATI 4-1-4 */
+
+.container-q {
+    width: 100%;
+    background-color: black;
+
+}
+
+.row-q {
+    width: 100%;
+    display: flex;
+
+}
+
+.col-33-q {
+    width: calc(100% / 3 );
+    height: calc(100vw / 3)
+
+}
+
+.back-red {
+    background-color: red;
+
+}
+
+.back-orange {
+    background-color: orange;
+
+
+}
+
+.back-yellow { 
+    background-color: yellow;
+    
+
+}
+
+.back-green { 
+    background-color: green;
+
+}
+
+.back-violet { 
+    background-color: violet;
+
+}
+.back-blue { 
+    background-color: blue;
+
+}
+
+.col-50 {
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.col-50 img {
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+/* FOOTER alto */
+
+.footer-alto, .footer-basso {
+    width: 100%;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+
+}
+
+.row-footer {
+    display: flex;
+    width: 75%;
+}
+
+.col-footer {
+    width: 20%;
+    border: 1px solid black;
+    padding-bottom: 50px;
+}
+
+.list-footer {
+    color: white;
+    margin-top: 50px;
+    padding: 10px;
+   
+}
+
+.list-footer ul li {
+   margin-top: 10px;
+   list-style: none;
+}
+
+.titles-footer {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+/* FOOTER basso */
+
+.col-footer-basso {
+    width: 15%;
+    border-top: 2px solid white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+.col-footer-basso p {
+    margin-left: 10px;
 }
 
 
