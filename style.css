@@ -439,7 +439,6 @@ li a {
 .col-100 {
     margin-top: 20px;
     width: 100%;
-    background-color: rgb(161, 93, 4);
     height: 80px;
     border-bottom: 1px solid black;
 }
@@ -486,7 +485,7 @@ li a {
 }
 
 .back-red {
-    background-color: red;
+    background-color: rgba(200, 1, 1, 0.876);
 
 }
 
@@ -497,23 +496,39 @@ li a {
 }
 
 .back-yellow { 
-    background-color: yellow;
+    background-color: rgb(248, 220, 2);
     
 
 }
 
 .back-green { 
-    background-color: green;
+    background-color: rgb(118, 194, 118);
+    border: 10px solid rgb(166, 219, 166);
 
 }
 
-.back-violet { 
-    background-color: violet;
+.back-granata { 
+    background-color: rgb(99, 0, 0);
 
 }
 .back-blue { 
-    background-color: blue;
+    background-color: rgb(2, 2, 124);
 
+}
+
+.back-celeste {
+    background-color: rgb(40, 152, 232);
+}
+.back-orange{
+    background-color: rgb(237, 13, 13);
+}
+
+.back-azzurro{
+    background-color: rgb(132, 171, 192);
+}
+
+.back-grey{
+    background-color: rgb(204, 204, 204);
 }
 
 .col-50 {
@@ -530,11 +545,84 @@ li a {
     height: 100%;
 }
 
-.col-50 img {
-    align-items: center;
+.back-green img {
     justify-content: center;
     width: 50%;
+    margin-left: 25%;
 }
+
+.back-granata img {
+   
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+.back-celeste img {
+    justify-content: center;
+    width: 50%;
+    height: 10%;
+    margin-left: 25%;
+    margin-top: 40%;
+
+}
+
+.back-orange img {
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+
+}
+
+.back-red img {
+    justify-content: center;
+    width: 60%;
+    margin-left: 25%;
+
+}
+
+.back-azzurro img {
+    justify-content: center;
+    width: 60%;
+    margin-left: 25%;
+
+}
+
+.back-blue img {
+    justify-content: center;
+    width: 60%;
+    margin-left: 25%;
+
+}
+
+.back-yellow img {
+    justify-content: center;
+    width: 60%;
+    margin-left: 25%;
+
+}
+
+.img-grey {
+    padding: 25px;
+    width: 70%;
+}
+
+.line-grey {
+    margin-left: 25px;
+    width: 60px;
+    height: 1px;
+    background-color: rgb(84, 84, 84);
+}
+
+.text-grey {
+    padding: 25px;
+    font-size: 10px;
+}
+
+
+
 
 /* FOOTER alto */
 
